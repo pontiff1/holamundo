@@ -1,10 +1,10 @@
 ﻿namespace Lab2Git
 {
-    class Programm
+    class Program
     {
         static void Main(string[] args)
         {
-            double? b = Convert.ToDouble(Console.ReadLine());
+            double? a = Convert.ToDouble(Console.ReadLine());
         }
     }
 }
