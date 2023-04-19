@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-
+            double? a = Convert.ToDouble(Console.ReadLine());
         }
     }
 }
