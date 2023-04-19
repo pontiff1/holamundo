@@ -1,15 +1,25 @@
 ﻿namespace Lab2Git
 {
-    class Programm
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите число а:");
-            Console.WriteLine("Введите число b:");
-            Console.WriteLine("1. Сумма");
-            Console.WriteLine("2. Вычитание");
-            Console.WriteLine("3. Умножение");
-            Console.WriteLine("4. Деление");
+            void plus(double? x, double? y)
+            {
+                Console.WriteLine(x + y);
+            }
+            void minus(double? x, double? y)
+            {
+                Console.WriteLine(x - y);
+            }
+            void multiply(double? x, double? y)
+            {
+                Console.WriteLine(x * y);
+            }
+            void divide(double? x, double? y)
+            {
+                Console.WriteLine(x / y);
+            }
         }
     }
 }
