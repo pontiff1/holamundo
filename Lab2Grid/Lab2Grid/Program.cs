@@ -4,21 +4,13 @@
     {
         static void Main(string[] args)
         {
-            void plus(double? x, double? y)
+            Console.WriteLine("Результат: ");
+            switch (c)
             {
-                Console.WriteLine(x + y);
-            }
-            void minus(double? x, double? y)
-            {
-                Console.WriteLine(x - y);
-            }
-            void multiply(double? x, double? y)
-            {
-                Console.WriteLine(x * y);
-            }
-            void divide(double? x, double? y)
-            {
-                Console.WriteLine(x / y);
+                case 1: plus(a, b); break;
+                case 2: minus(a, b); break;
+                case 3: multiply(a, b); break;
+                case 4: divide(a, b); break;
             }
         }
     }
