@@ -1,6 +1,6 @@
 ﻿namespace Lab2Git
 {
-    class Programm
+    class Program
     {
         static void Main(string[] args)
         {
